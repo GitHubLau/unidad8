@@ -16,7 +16,7 @@ public class ControlPersonal
 		alumnos (mínimo 3), añádelas al ArrayList y muestra el listado de los alumnos ordenado por
 		nombre, el listado de alumnos por nombre de asignatura, listado de profesores ordenado por
 		dni, listado de alumnos ordenado por nota y por último el listado de las notas que le ha
-		asignado la universidad a cada profesor, es decir, el listado de profesores ordenado por nota.
+		asignado la universidad a cada profesor, es decir, el listado de profesores ordenado por nota
 	 * @param args
 	 */
 	public static void main(String[] args) 
