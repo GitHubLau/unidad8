@@ -12,10 +12,10 @@ public class ControlPersonal
 	{}
 	
 	/**
-	 * Crea asignaturas (mínimo 3), crea profesores (mínimo 3), crea
-		alumnos (mínimo 3), añádelas al ArrayList y muestra el listado de los alumnos ordenado por
+	 * Crea asignaturas (mÃ­nimo 3), crea profesores (mÃ­nimo 3), crea
+		alumnos (mÃ­nimo 3), aÃ±Ã¡delas al ArrayList y muestra el listado de los alumnos ordenado por
 		nombre, el listado de alumnos por nombre de asignatura, listado de profesores ordenado por
-		dni, listado de alumnos ordenado por nota y por último el listado de las notas que le ha
+		dni, listado de alumnos ordenado por nota y por Ãºltimo el listado de las notas que le ha
 		asignado la universidad a cada profesor, es decir, el listado de profesores ordenado por nota
 	 * @param args
 	 */
@@ -24,7 +24,7 @@ public class ControlPersonal
 		Asignatura programacion = new Asignatura("programacion");
 			
 		Asignatura basesDatos = new Asignatura("bases de datos");
-		Asignatura sistemas = new Asignatura("sistemas");
+		Asignatura sistemas = new Asignatura("BASES DE DATOS");
 		
 		Profesor dProg = new Profesor ("pepe", "123456789");
 			anyadirPersonas (dProg);
@@ -43,7 +43,7 @@ public class ControlPersonal
 	
 	
 	/**
-	 * : añade la persona al ArrayList
+	 * : aÃ±ade la persona al ArrayList
 	 * @param p
 	 */
 	public static void anyadirPersonas(Persona p)
@@ -69,7 +69,7 @@ public class ControlPersonal
 	}
 	
 	/**
-	 * : método para mostrar por pantalla los listados correspondientes
+	 * : mÃ©todo para mostrar por pantalla los listados correspondientes
 	 */
 	public void mostrarListado()
 	{
