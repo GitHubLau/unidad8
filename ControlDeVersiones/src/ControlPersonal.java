@@ -21,10 +21,10 @@ public class ControlPersonal
 	 */
 	public static void main(String[] args) 
 	{
-		Asignatura programacion = new Asignatura("programacion");
-			
+		Asignatura programacion = new Asignatura("programacion");			
 		Asignatura basesDatos = new Asignatura("bases de datos");
 		Asignatura sistemas = new Asignatura("sistemas");
+		Asignatura lenguageMarcas = new Asignatura("lenguage de marcas");
 		
 		Profesor dProg = new Profesor ("pepe", "123456789");
 			anyadirPersonas (dProg);
@@ -32,12 +32,16 @@ public class ControlPersonal
 			anyadirPersonas (dBD);
 		Profesor dsist = new Profesor ("santi", "123454321");
 			anyadirPersonas (dsist);
+		Profesor dLengMarcas = new Profesor ("tonino", "232323222");
+			anyadirPersonas (dsist);
 		
 		Alumno alum1 = new Alumno ("claudia", "098765432");
 			anyadirPersonas (alum1);
 		Alumno alum2 = new Alumno ("pepita", "234567890");
 			anyadirPersonas (alum2);
 		Alumno alum3 = new Alumno ("claudia", "098767890");
+			anyadirPersonas (alum3);
+		Alumno alum4 = new Alumno ("laura", "565656564");
 			anyadirPersonas (alum3);
 	}
 	
